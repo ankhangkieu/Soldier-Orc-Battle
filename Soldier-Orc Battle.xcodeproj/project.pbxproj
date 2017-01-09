@@ -17,6 +17,7 @@
 		05856C551E235DE800B973E4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C541E235DE800B973E4 /* Character.swift */; };
 		05856C571E235EF900B973E4 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C561E235EF900B973E4 /* Soldier.swift */; };
 		05856C591E2361DF00B973E4 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C581E2361DF00B973E4 /* Orc.swift */; };
+		05856C5B1E23658100B973E4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C5A1E23658100B973E4 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		05856C541E235DE800B973E4 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		05856C561E235EF900B973E4 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
 		05856C581E2361DF00B973E4 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		05856C5A1E23658100B973E4 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				05856C541E235DE800B973E4 /* Character.swift */,
 				05856C561E235EF900B973E4 /* Soldier.swift */,
 				05856C581E2361DF00B973E4 /* Orc.swift */,
+				05856C5A1E23658100B973E4 /* Game.swift */,
 			);
 			path = "Soldier-Orc Battle";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05856C551E235DE800B973E4 /* Character.swift in Sources */,
+				05856C5B1E23658100B973E4 /* Game.swift in Sources */,
 				05856C291E235CC600B973E4 /* ViewController.swift in Sources */,
 				05856C571E235EF900B973E4 /* Soldier.swift in Sources */,
 				05856C591E2361DF00B973E4 /* Orc.swift in Sources */,

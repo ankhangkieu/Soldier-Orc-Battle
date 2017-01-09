@@ -15,6 +15,6 @@ class Orc:Character {
     }
     
     override func abilityUsed() {
-        attackPwr += 5
+        attackPwr += 2
     }
 }
