@@ -18,6 +18,7 @@
 		05856C571E235EF900B973E4 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C561E235EF900B973E4 /* Soldier.swift */; };
 		05856C591E2361DF00B973E4 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C581E2361DF00B973E4 /* Orc.swift */; };
 		05856C5B1E23658100B973E4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C5A1E23658100B973E4 /* Game.swift */; };
+		05856C5D1E236FE300B973E4 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05856C5C1E236FE300B973E4 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		05856C561E235EF900B973E4 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
 		05856C581E2361DF00B973E4 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 		05856C5A1E23658100B973E4 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		05856C5C1E236FE300B973E4 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		05856C251E235CC600B973E4 /* Soldier-Orc Battle */ = {
 			isa = PBXGroup;
 			children = (
+				05856C5C1E236FE300B973E4 /* Minecraft.ttf */,
 				05856C261E235CC600B973E4 /* AppDelegate.swift */,
 				05856C281E235CC600B973E4 /* ViewController.swift */,
 				05856C2A1E235CC600B973E4 /* Main.storyboard */,
@@ -243,6 +246,7 @@
 			files = (
 				05856C311E235CC600B973E4 /* LaunchScreen.storyboard in Resources */,
 				05856C2E1E235CC600B973E4 /* Assets.xcassets in Resources */,
+				05856C5D1E236FE300B973E4 /* Minecraft.ttf in Resources */,
 				05856C2C1E235CC600B973E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
