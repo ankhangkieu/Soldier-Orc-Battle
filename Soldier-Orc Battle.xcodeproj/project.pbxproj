@@ -14,6 +14,9 @@
 		05856C311E235CC600B973E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05856C2F1E235CC600B973E4 /* LaunchScreen.storyboard */; };
 		05856C3C1E235CC700B973E4 /* Soldier_Orc_BattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C3B1E235CC700B973E4 /* Soldier_Orc_BattleTests.swift */; };
 		05856C471E235CC700B973E4 /* Soldier_Orc_BattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C461E235CC700B973E4 /* Soldier_Orc_BattleUITests.swift */; };
+		05856C551E235DE800B973E4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C541E235DE800B973E4 /* Character.swift */; };
+		05856C571E235EF900B973E4 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C561E235EF900B973E4 /* Soldier.swift */; };
+		05856C591E2361DF00B973E4 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05856C581E2361DF00B973E4 /* Orc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		05856C421E235CC700B973E4 /* Soldier-Orc BattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soldier-Orc BattleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05856C461E235CC700B973E4 /* Soldier_Orc_BattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier_Orc_BattleUITests.swift; sourceTree = "<group>"; };
 		05856C481E235CC700B973E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05856C541E235DE800B973E4 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		05856C561E235EF900B973E4 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		05856C581E2361DF00B973E4 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				05856C2D1E235CC600B973E4 /* Assets.xcassets */,
 				05856C2F1E235CC600B973E4 /* LaunchScreen.storyboard */,
 				05856C321E235CC600B973E4 /* Info.plist */,
+				05856C541E235DE800B973E4 /* Character.swift */,
+				05856C561E235EF900B973E4 /* Soldier.swift */,
+				05856C581E2361DF00B973E4 /* Orc.swift */,
 			);
 			path = "Soldier-Orc Battle";
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05856C551E235DE800B973E4 /* Character.swift in Sources */,
 				05856C291E235CC600B973E4 /* ViewController.swift in Sources */,
+				05856C571E235EF900B973E4 /* Soldier.swift in Sources */,
+				05856C591E2361DF00B973E4 /* Orc.swift in Sources */,
 				05856C271E235CC600B973E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
