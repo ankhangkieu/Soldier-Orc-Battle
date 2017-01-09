@@ -13,13 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var winnerLbl: UILabel!
     @IBOutlet weak var startLbl: UILabel!
     @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var descriptionLbl: UILabel!
     
     @IBOutlet weak var orcLbl: UILabel!
     @IBOutlet weak var soldierLbl: UILabel!
     @IBOutlet weak var gameLbl: UILabel!
     @IBOutlet weak var orcAttImg: UIImageView!
     @IBOutlet weak var soldierAttImg: UIImageView!
-    @IBOutlet weak var orcAttBut: UILabel!
+    @IBOutlet weak var orcAttBut: UIButton!
     @IBOutlet weak var soldierAttBut: UIButton!
     @IBOutlet weak var orcimg: UIImageView!
     @IBOutlet weak var soldierimg: UIImageView!
@@ -32,37 +33,41 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         winnerLbl.text = ""
+        gameLbl.text = "GAME START!!!"
+    }
+    
+    @IBAction func onStartAttPressed(){
+        game = Game(soldierName: "Knight", orcName: "Troll")
+        gameLbl.text = "GAME START!!!"
+        updateLabel()
+        changeScreen()
+    }
+    
+    @IBAction func onOrcAttPressed(){
+        unableAttack()
+        game.orcTurn()
+        updateLabel()
+        updateGameLbl(game.orc, defender: game.soldier)
+        checkGameOver()
+    }
+    
+    @IBAction func onSoldierAttPressed(){
+        unableAttack()
+        game.soldierTurn()
+        updateLabel()
+        updateGameLbl(game.soldier, defender: game.orc)
+        checkGameOver()
     }
     
     func unableAttack(){
-        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(ViewController.enableAttack), userInfo: nil, repeats: false)
         orcAttBut.hidden = true
         soldierAttBut.hidden = true
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.enableAttack), userInfo: nil, repeats: false)
     }
     
     func enableAttack(){
         orcAttBut.hidden = false
         soldierAttBut.hidden = false
-    }
-
-    @IBAction func onOrcAttPressed(){
-        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(ViewController.unableAttack), userInfo: nil, repeats: false)
-        game.orcTurn()
-        updateLabel()
-        checkGameOver()
-    }
-    
-    @IBAction func onSoldierAttPressed(){
-        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(ViewController.unableAttack), userInfo: nil, repeats: false)
-        game.soldierTurn()
-        updateLabel()
-        checkGameOver()
-    }
-    
-    @IBAction func onStartAttPressed(){
-        game = Game(soldierName: "Knight", orcName: "Troll")
-        updateLabel()
-        changeScreen()
     }
     
     func updateLabel(){
@@ -70,10 +75,14 @@ class ViewController: UIViewController {
         orcLbl.text = "\(game.orc.name): \(game.orc.hp)HP"
     }
     
+    func updateGameLbl(attacker: Character, defender: Character){
+        gameLbl.text = "\(attacker.name) uses \(attacker.ability).\n\(attacker.name) attacks \(defender.name) with \(attacker.attackPwr) damage."
+    }
+    
     func checkGameOver(){
         if isGameOver(){
             winnerLbl.text = "\(game.winner()) wins"
-            changeScreen()
+            NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.changeScreen), userInfo: nil, repeats: false)
         }
     }
     
@@ -90,6 +99,7 @@ class ViewController: UIViewController {
         winnerLbl.hidden = screen1
         startLbl.hidden = screen1
         startButton.hidden = screen1
+        descriptionLbl.hidden = screen1
         
         orcLbl.hidden = screen2
         soldierLbl.hidden = screen2
