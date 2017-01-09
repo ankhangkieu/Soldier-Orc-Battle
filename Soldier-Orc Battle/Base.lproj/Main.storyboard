@@ -31,19 +31,19 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8Pw-pC-i2c">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player2attackbtn" translatesAutoresizingMaskIntoConstraints="NO" id="Oed-rt-iPH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player2attackbtn" translatesAutoresizingMaskIntoConstraints="NO" id="Oed-rt-iPH">
                                 <rect key="frame" x="419" y="36" width="177" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="LbG-ik-qQr"/>
                                 </constraints>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player1attackbtn" translatesAutoresizingMaskIntoConstraints="NO" id="1V7-8k-vKH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player1attackbtn" translatesAutoresizingMaskIntoConstraints="NO" id="1V7-8k-vKH">
                                 <rect key="frame" x="7" y="28" width="177" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="ZSj-r5-q98"/>
                                 </constraints>
                             </imageView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJG-VN-px4">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJG-VN-px4">
                                 <rect key="frame" x="426" y="49" width="163" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="RhQ-fZ-Ekc"/>
@@ -56,7 +56,7 @@
                                     <action selector="onSoldierAttPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="ide-FC-wz6"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXY-D9-gxf">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXY-D9-gxf">
                                 <rect key="frame" x="7" y="41" width="163" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="glL-NV-eRZ"/>
@@ -69,7 +69,7 @@
                                     <action selector="onOrcAttPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKk-ge-ek9"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="0E8-iH-33p">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="0E8-iH-33p">
                                 <rect key="frame" x="0.0" y="540" width="600" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="25t-rl-tJ4"/>
@@ -81,7 +81,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text-holder" translatesAutoresizingMaskIntoConstraints="NO" id="Nec-cC-4BX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text-holder" translatesAutoresizingMaskIntoConstraints="NO" id="Nec-cC-4BX">
                                 <rect key="frame" x="45" y="549" width="510" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="S0h-Ig-Lmx"/>
@@ -95,7 +95,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GAME START!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dov-YM-gTR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GAME START!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dov-YM-gTR">
                                 <rect key="frame" x="45" y="549" width="510" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2Lu-Ua-mbW"/>
@@ -113,7 +113,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ORC: 100HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zh-Iu-xxu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ORC: 100HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zh-Iu-xxu">
                                 <rect key="frame" x="20" y="7" width="150" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="xMO-nu-SaG"/>
@@ -122,7 +122,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SOLDIER: 100HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNl-AQ-Y0S">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SOLDIER: 100HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNl-AQ-Y0S">
                                 <rect key="frame" x="430" y="13" width="150" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Yk7-Z2-6rM"/>
@@ -131,14 +131,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="eyo-Fr-2ML">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="eyo-Fr-2ML">
                                 <rect key="frame" x="398" y="326" width="202" height="216"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="7gp-z4-zj3"/>
                                     <constraint firstAttribute="height" constant="200" id="YgN-g2-eAv"/>
                                 </constraints>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="enemy" translatesAutoresizingMaskIntoConstraints="NO" id="BF3-q7-KpR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="enemy" translatesAutoresizingMaskIntoConstraints="NO" id="BF3-q7-KpR">
                                 <rect key="frame" x="0.0" y="326" width="202" height="216"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="LlG-Fw-cSJ"/>
@@ -193,7 +193,7 @@
                             <constraint firstItem="8Pw-pC-i2c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EXb-hw-TUv"/>
                             <constraint firstItem="8zh-Iu-xxu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FVv-cQ-tr8"/>
                             <constraint firstItem="tj1-uU-dJ5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="HIk-UZ-WvM"/>
-                            <constraint firstItem="tXY-D9-gxf" firstAttribute="top" secondItem="8zh-Iu-xxu" secondAttribute="bottom" id="JzT-oU-3bf"/>
+                            <constraint firstItem="tXY-D9-gxf" firstAttribute="top" secondItem="8zh-Iu-xxu" secondAttribute="bottom" constant="15" id="JzT-oU-3bf"/>
                             <constraint firstItem="8Pw-pC-i2c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QSQ-Cr-uwk"/>
                             <constraint firstItem="Nec-cC-4BX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="RfE-WM-mjQ"/>
                             <constraint firstItem="1V7-8k-vKH" firstAttribute="centerX" secondItem="8zh-Iu-xxu" secondAttribute="centerX" id="Rk3-DJ-Nl5"/>
@@ -213,7 +213,7 @@
                             <constraint firstItem="Crx-qc-bDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="idM-ri-cjx"/>
                             <constraint firstItem="BF3-q7-KpR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jSy-fe-4RL"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Pw-pC-i2c" secondAttribute="bottom" id="kfn-mC-ohT"/>
-                            <constraint firstItem="8zh-Iu-xxu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="koz-Ph-ruy"/>
+                            <constraint firstItem="8zh-Iu-xxu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="koz-Ph-ruy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Nec-cC-4BX" secondAttribute="trailing" constant="25" id="neI-Ml-jJs"/>
                             <constraint firstAttribute="trailing" secondItem="0E8-iH-33p" secondAttribute="trailing" id="osX-5a-bS3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dov-YM-gTR" secondAttribute="bottom" constant="20" id="ow8-zA-fUI"/>
